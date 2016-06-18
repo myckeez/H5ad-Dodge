@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <script type="text/javascript">
+
+        // 1.0.2
+
+        var IV = (function(SCOPE) {
+
+            SCOPE.baseData = {};
+
+            SCOPE.baseData.app_data = {"html-click-thrus":{"Tap_Explore_Dart":"http://www.innovid.com","Tap_Explore_Challenger":"http://www.innovid.com","Tap_Explore_Charger":"http://www.innovid.com","Tap_Explore_Durango":"http://www.innovid.com"},"html-custom-data":{"overlay-assets":["bgFade.png","car1.png","car2.png","car3.png","car4.png","carType1.png","carType2.png","carType3.png","carType4.png","fadeBlack.png","btn1.png","btn2.png","btn3.png","btn4.png"]},"video":{"url":"http://cdn.innovid.com/files/express/InnovidDefault.flv","width":640,"height":360,"duration":50.2,"encodingToken":"","renditions":{"mp4":"http://video.innovid.com/encoded/f34308bc6e828f5afed3aaff729eb42d/InnovidDefault.mp4","webm":"http://video.innovid.com/encoded/f34308bc6e828f5afed3aaff729eb42d/InnovidDefault.webm"}},"custom":true};
+
+            SCOPE.baseData.config_data = {"iconSizes":[24,32,48,64,128],"previewParam":{"width":500,"height":281,"iconSize":32,"trayMargin":1.05},"platformScaling":{"mobile":1,"tablet":1,"desktop":1,"tv":2},"aspectRatio":1.3,"googleMapsApiKey":"AIzaSyAIvRFdH46ZxXWyLgE3_OjsL61tjxCDtS4"};
+            SCOPE.baseData.cssPath = 'http://deliver.innovid.com/m/jsapps/css';
+            SCOPE.baseData.config_data.mode = 'js';
+            SCOPE.baseData.targetElement = 'div#content';
+            SCOPE.baseData.appPath = '';
+            SCOPE.baseData.servicePath = '';
+            SCOPE.baseData.nonCdnServicePath = '';
+            SCOPE.baseData.reportUrl = 'http://files.innovid.com/creative/1x1.gif';
+            SCOPE.baseData.errorReportUrl = '';
+            SCOPE.baseData.runtimeConfigUrl = '';
+            SCOPE.baseData.mobileCoreVersion = '0.0';
+
+            return SCOPE;
+
+        })(IV || {});
+    </script>
+
+
+    <script type="text/javascript" src="http://deliver.innovid.com/m/jsapps/js/core"></script>
+    <script type="text/javascript" src="http://deliver.innovid.com/m/jsapps/iva"></script>
+
+    <script type="text/javascript">
+        IVA.devMode = true;
+    </script>
+
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="BugOverlay.js"></script>
+    <script type="text/javascript" src="Slate.js"></script>
+    <script type="text/javascript" src="fx.js"></script>
+    <script type="text/javascript" src="fx_methods.js"></script>
+    <script type="text/javascript" src="jquery.blast.min.js"></script>
+    <script type="text/javascript" src="velocity.min.js"></script>
+    <script type="text/javascript" src="velocity.ui.min.js"></script>
+
+</head>
+<body>
+
+<script type="text/javascript">
+
+    $(function() {
+
+        var appsCore = new IV.AppsCore({
+            data: IV.baseData.app_data,
+            config: IV.baseData.config_data,
+            mainEngagementEvent: 'click',
+            forceSessionMonitoring: true,
+            interface:{
+                windowOpen:function(url){
+                    window.open(url)
+                }
+            }
+        });
+
+        $('head').append('<link rel="stylesheet" href="' + IV.baseData.cssPath + '" type="text/css" />');
+
+        appsCore.trigger('init');
+        appsCore.trigger('start');
+
+    });
+
+</script>
+
+</body>
+</html>
