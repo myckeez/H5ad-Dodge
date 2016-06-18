@@ -1,0 +1,43 @@
+{
+
+    "custom": true,
+
+    "video": {
+        "url": "http:\/\/cdn.innovid.com\/files\/express\/InnovidDefault.flv",
+        "width": 640,
+        "height": 360,
+        "duration": 50.2,
+        "encodingToken": "",
+        "renditions": {
+          "mp4": "http:\/\/video.innovid.com\/encoded\/f34308bc6e828f5afed3aaff729eb42d\/InnovidDefault.mp4",
+          "webm": "http:\/\/video.innovid.com\/encoded\/f34308bc6e828f5afed3aaff729eb42d\/InnovidDefault.webm"
+        }
+    },
+
+    "html-custom-data": {
+      "overlay-assets":[
+			"bgFade.png",
+			"car1.png",
+			"car2.png",
+			"car3.png",
+			"car4.png",
+			"carType1.png",
+			"carType2.png",
+			"carType3.png",
+			"carType4.png",
+			"fadeBlack.png",
+			"btn1.png",
+			"btn2.png",
+			"btn3.png",
+			"btn4.png"
+	  ]
+    },
+
+    "html-click-thrus": {
+        "Tap_Explore_Dart": "http://www.innovid.com",
+        "Tap_Explore_Challenger": "http://www.innovid.com",
+        "Tap_Explore_Charger": "http://www.innovid.com",
+        "Tap_Explore_Durango": "http://www.innovid.com"
+    }
+
+}

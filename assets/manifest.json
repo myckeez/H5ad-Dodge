@@ -1,0 +1,34 @@
+{
+  "config": "config.json",
+  "inline": [
+    "main.js",
+    "BugOverlay.js",
+    "Slate.js",
+    "fx.js",
+    "fx_methods.js",
+	"jquery.blast.min.js",
+	"velocity.min.js",
+	"velocity.ui.min.js"
+  ],
+  "assets": [
+    "main.css",
+	"bgFade.png",
+	"car1.png",
+	"car2.png",
+	"car3.png",
+	"car4.png",
+	"carType1.png",
+	"carType2.png",
+	"carType3.png",
+	"carType4.png",
+	"fadeBlack.png",
+	"btn1.png",
+	"btn2.png",
+	"btn3.png",
+	"btn4.png",
+	"Rubik-BoldItalic.woff",
+	"Rubik-BlackItalic.woff",
+	"Oswald-Regular.woff",
+	"Oswald-Light.woff"
+  ]
+}
