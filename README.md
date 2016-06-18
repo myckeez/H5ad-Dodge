@@ -10,8 +10,13 @@ Responsive for [Phone and Tablet] [Landscape and Portrait]
 
 Files:
 
+config.json
+
 preview.html 
+
 main.css
+
 BugOverlay.js
+
 Slate.js
 
