@@ -4,7 +4,7 @@ HTML5-RichMediaAd-INNOVID-DodgeFY15
 
 Build on top of the INNOVID's Platform -API uses node.js, zepto & Underscore.js
 
-This unit was converted from PSD to HTML5 animation and functionality -Jquery and Velocity and Blast.
+This unit was converted from PSD to HTML5 animation and functionality - JS: Jquery and Velocity and Blast.
 
 Responsive for [Phone and Tablet] [Landscape and Portrait]
 
